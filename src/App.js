@@ -4,6 +4,7 @@ import Header from './components/header';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
         <Footer/>
       </HashRouter>

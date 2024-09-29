@@ -8,6 +8,9 @@ function Footer() {
                 Privacy Policy
             </Link>
             Lorem
+            Email
+            Phone-Number
+            WeberTax&Accounting
         </footer>
     )
 }

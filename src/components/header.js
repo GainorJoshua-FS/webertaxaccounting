@@ -8,7 +8,12 @@ function Header() {
             <Link id="link" to="/" style={styles.link}>
                 <img style={styles.logo} src={Logo} alt=''/>
             </Link>
-            Lorem
+            <Link id="link" to="/" style={styles.link}>
+                Home
+            </Link>
+            <Link id="link" to="/contact" style={styles.link}>
+                Contact Us
+            </Link>
         </header>
     )
 }
@@ -26,7 +31,10 @@ const styles ={
         height: '10%'
     },
     link:{
-        // width: '20%',
-        // height: '20%'
+        color: "white",
+        textDecoration: "none",
+        display: "inline",
+        textAlign: "left",
+        marginRight: '20px'
     }
 }
