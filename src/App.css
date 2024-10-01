@@ -14,3 +14,51 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/* ==================Colors */
+
+.PrimBack {
+  background-color: #2F5065;
+}
+
+.SecBack {
+  background-color: #9ABBD0;
+}
+
+.TertBack {
+  background-color: #C3AD54;
+}
+
+.Prim {
+  color: #2F5065;
+}
+
+.Sec {
+  color: #9ABBD0;
+}
+
+.Tert {
+  color: #C3AD54;
+}
+
+/* ==================END of Colors */
+
+
+/* ==================Responsive */
+
+/* Phone */
+@media(min-width: 420px) {
+
+}
+
+/* tablet */
+@media(min-width: 644px) {
+
+}
+
+/* desktop */
+@media(min-width: 1083px) {
+
+}
+
+/* ==================END of Responsive */
