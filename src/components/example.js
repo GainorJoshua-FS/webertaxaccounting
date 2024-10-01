@@ -10,6 +10,6 @@ export default Example
 
 const styles ={
     example:{
-
+        
     },
 }
