@@ -62,6 +62,7 @@
 
 /* desktop */
 @media(min-width: 1083px) {
+  /* HOME PAGE */
   .BioSection {
     margin: 20px 100px 20px 100px;
     display: flex;
@@ -98,6 +99,17 @@
     margin-left: 80px;
     width: 20%;
   }
+  /* END HOME PAGE */
+
+  /* PRIVACY PAGE */
+  .PrivSection {
+    margin: 20px 100px;
+  }
+
+  .PrivSection h2 {
+    font-size: 40px;
+  }
+  /* END PRIVACY PAGE */
 }
 
 /* ==================END of Responsive */
