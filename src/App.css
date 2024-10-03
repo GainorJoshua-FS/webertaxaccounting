@@ -15,6 +15,10 @@
   color: white;
 }
 
+.Main {
+  background-color: #ececec;
+}
+
 /* ==================Colors */
 
 .PrimBack {
@@ -58,7 +62,42 @@
 
 /* desktop */
 @media(min-width: 1083px) {
+  .BioSection {
+    margin: 20px 100px 20px 100px;
+    display: flex;
+    align-items: center;
+    text-align: left  ;
+  }
 
+  .BioArticle {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-right: 50px;
+  }
+
+  .BioName {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+
+  .BioTitle {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .BioBody {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .BioImg {
+    justify-content: right;
+    margin-left: 80px;
+    width: 20%;
+  }
 }
 
 /* ==================END of Responsive */
