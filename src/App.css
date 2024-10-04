@@ -62,9 +62,20 @@
 
 /* desktop */
 @media(min-width: 1083px) {
+
+  /* GENERAL */
+  section {
+    margin: 20px 100px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /* END GENERAL =================== */
+
   /* HOME PAGE */
   .BioSection {
-    margin: 20px 100px 20px 100px;
     display: flex;
     align-items: center;
     text-align: left  ;
@@ -89,27 +100,37 @@
     margin-top: 0px;
   }
 
-  .BioBody {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
   .BioImg {
     justify-content: right;
     margin-left: 80px;
     width: 20%;
   }
-  /* END HOME PAGE */
+  /* END HOME PAGE ========================*/
+
+  /* CONTACT PAGE */
+
+  .ContactSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .ContactBody {
+    max-width: 50%;
+  }
+
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* END CONTACT PAGE ======================*/
 
   /* PRIVACY PAGE */
-  .PrivSection {
-    margin: 20px 100px;
-  }
 
   .PrivSection h2 {
     font-size: 40px;
   }
-  /* END PRIVACY PAGE */
+  /* END PRIVACY PAGE ======================*/
 }
 
 /* ==================END of Responsive */
