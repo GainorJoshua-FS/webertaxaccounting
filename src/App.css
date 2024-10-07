@@ -72,6 +72,16 @@
     font-size: 20px;
     font-weight: 500;
   }
+
+  label {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  input {
+    font-size: 20px;
+    font-weight: 500;
+  }
   /* END GENERAL =================== */
 
   /* HOME PAGE */
@@ -121,6 +131,46 @@
   .ContactForm {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .ContactForm input {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+  }
+
+  .ContactForm textarea {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    resize: vertical;
+    max-height: 300px;
+  }
+
+  .ContactForm select {
+    width: auto;
+    height: 36px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 1px 2px;
+    border-width: 2px;
+  }
+
+  .ContactForm label {
+    margin-top: 10px;
+  }
+
+  .ContactForm .FormBtn {
+    width: 25%;
+    height: 30px;
+  }
+  .ContactForm .FormBtn:hover {
+    background-color: teal;
+    color: white;
   }
 
   /* END CONTACT PAGE ======================*/

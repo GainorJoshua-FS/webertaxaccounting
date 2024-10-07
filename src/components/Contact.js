@@ -4,7 +4,7 @@ function Contact() {
     return (
         <section className='ContactSection'>
             <p className='ContactBody'>
-                Prospective clients please email kyle.<a href='mailto:Kyle.Weber@webertaxaccounting.com'>weber@webertaxaccounting.com</a> describing the nature of your inquiry.
+                Prospective clients please email <a href='mailto:Kyle.Weber@webertaxaccounting.com'>kyle.weber@webertaxaccounting.com</a> describing the nature of your inquiry.
                 
                 If further documents are required to understand the complexity and scope of your request, we will provide you a secure link to our portal to upload necessary documentation 
                 
@@ -17,7 +17,7 @@ function Contact() {
                 <label for='Name'>Name:</label>
                 <input type='text' name='Name' placeholder='First and Last Name'/>
 
-                <label for='Email'>Email</label>
+                <label for='Email'>Email:</label>
                 <input type='email' name='Email' placeholder='example@example.com'/>
 
                 <label for='Inquiry'>Inquiry:</label>
@@ -28,16 +28,12 @@ function Contact() {
                 </select>
 
                 <label for='Message'>Message:</label>
-                <input type='text' name='Message' placeholder='Type Here'/>
+                <textarea type='text' name='Message' placeholder='Type Here'/>
+
+                <input className='FormBtn' type='button' value='Submit'/>
             </form>
         </section>
     )
 }
 
 export default Contact
-
-const styles ={
-    example:{
-
-    },
-}
