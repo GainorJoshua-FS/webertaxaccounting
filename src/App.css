@@ -62,9 +62,30 @@
 
 /* desktop */
 @media(min-width: 1083px) {
+
+  /* GENERAL */
+  section {
+    margin: 20px 100px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  label {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  input {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /* END GENERAL =================== */
+
   /* HOME PAGE */
   .BioSection {
-    margin: 20px 100px 20px 100px;
     display: flex;
     align-items: center;
     text-align: left  ;
@@ -89,27 +110,77 @@
     margin-top: 0px;
   }
 
-  .BioBody {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
   .BioImg {
     justify-content: right;
     margin-left: 80px;
     width: 20%;
   }
-  /* END HOME PAGE */
+  /* END HOME PAGE ========================*/
+
+  /* CONTACT PAGE */
+
+  .ContactSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .ContactBody {
+    max-width: 50%;
+  }
+
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .ContactForm input {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+  }
+
+  .ContactForm textarea {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    resize: vertical;
+    max-height: 300px;
+  }
+
+  .ContactForm select {
+    width: auto;
+    height: 36px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 1px 2px;
+    border-width: 2px;
+  }
+
+  .ContactForm label {
+    margin-top: 10px;
+  }
+
+  .ContactForm .FormBtn {
+    width: 25%;
+    height: 30px;
+  }
+  .ContactForm .FormBtn:hover {
+    background-color: teal;
+    color: white;
+  }
+
+  /* END CONTACT PAGE ======================*/
 
   /* PRIVACY PAGE */
-  .PrivSection {
-    margin: 20px 100px;
-  }
 
   .PrivSection h2 {
     font-size: 40px;
   }
-  /* END PRIVACY PAGE */
+  /* END PRIVACY PAGE ======================*/
 }
 
 /* ==================END of Responsive */

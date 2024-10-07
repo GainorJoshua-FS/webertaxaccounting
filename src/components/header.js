@@ -1,12 +1,13 @@
 import React from 'react'
-import Logo from '../images/Logo.png'
+// import Logo from '../images/Logo.png'
+import Logo2 from '../images/Logo2.svg'
 import { Link } from 'react-router-dom'
 
 function Header() {
     return (
         <header className='PrimBack' style={styles.header}>
             <Link id="link" to="/" style={styles.link}>
-                <img style={styles.logo} src={Logo} alt=''/>
+                <img style={styles.logo} src={Logo2} alt=''/>
             </Link>
             <Link id="link" to="/" style={styles.link}>
                 Home
