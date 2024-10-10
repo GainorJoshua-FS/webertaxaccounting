@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <main>
+    <main className='Main'>
       <HashRouter>
         <Header/>
         <Routes>

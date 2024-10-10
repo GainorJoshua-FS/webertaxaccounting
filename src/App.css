@@ -1,18 +1,33 @@
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.Main {
+  background-color: #ececec;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+footer {
+  margin-top: auto;
+  display: block;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
   color: white;
+}
+
+.Link {
+  border-bottom: medium solid #C3AD54;
+  color: white;
+}
+
+footer a:hover{
+  border-color: #2F5065;
+}
+
+header .Link:hover {
+  border-color: #000045;
+  transform: scale(1.1); 
 }
 
 /* ==================Colors */
@@ -59,6 +74,138 @@
 /* desktop */
 @media(min-width: 1083px) {
 
+  /* GENERAL */
+  section {
+    margin: 20px 100px;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  label, input, select {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  /* END GENERAL =================== */
+
+  /* HOME PAGE */
+  .BioSection {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content:space-around;
+    margin-top: auto;
+  }
+
+  .BioArticle {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-right: 50px;
+  }
+
+  .BioName {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+
+  .BioTitle {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .BioImg {
+    margin-left: 80px;
+    width: 20%;
+  }
+  /* END HOME PAGE ========================*/
+
+  /* CONTACT PAGE */
+
+  .ContactSection {
+    display: flex;
+    align-items: center;
+  }
+
+  .ContactBody {
+    max-width: 50%;
+  }
+
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .ContactForm input {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+  }
+
+  .ContactForm textarea {
+    width: auto;
+    height: 150px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    resize: vertical;
+    max-height: 300px;
+  }
+
+  .ContactForm select {
+    width: auto;
+    height: 36px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 1px 2px;
+    border-width: 2px;
+  }
+
+  .ContactForm label {
+    margin-top: 10px;
+  }
+
+  .ContactForm .FormBtn {
+    width: 25%;
+    height: 30px;
+  }
+  .ContactForm .FormBtn:hover {
+    background-color: teal;
+    color: white;
+  }
+
+  /* END CONTACT PAGE ======================*/
+
+  /* PRIVACY PAGE */
+
+  .PrivSection h2 {
+    font-size: 40px;
+  }
+  /* END PRIVACY PAGE ======================*/
+
+  /* HEADER & FOOTER ======================*/
+
+  header .Link{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Logo {
+    max-width: 5%;
+    margin: 20px 20px 0px 25px;
+  }
+/* END HEADER & FOOTER ======================*/
 }
 
 /* ==================END of Responsive */
