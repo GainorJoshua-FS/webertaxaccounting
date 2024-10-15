@@ -22,7 +22,7 @@ footer a {
 }
 
 footer a:hover{
-  border-color: #2F5065;
+  border-color: #000045;
 }
 
 header .Link:hover {
@@ -204,6 +204,11 @@ header .Link:hover {
   .Logo {
     max-width: 5%;
     margin: 20px 20px 0px 25px;
+  }
+
+  .Footer {
+    padding: 20px;
+    color: white;
   }
 /* END HEADER & FOOTER ======================*/
 }

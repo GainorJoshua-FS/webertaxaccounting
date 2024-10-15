@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <header className='PrimBack' style={styles.header}>
-            
+            {/* <h1>Weber Tax &amp; Accounting</h1> */}
             <Link className='LinkLogo' to="/" style={styles.link}>
                 <img className='Logo' src={Logo2} alt=''/>
             </Link>

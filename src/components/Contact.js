@@ -6,11 +6,9 @@ function Contact() {
             <p className='ContactBody'>
                 Prospective clients please email <a href='mailto:Kyle.Weber@webertaxaccounting.com'>kyle.weber@webertaxaccounting.com</a> describing the nature of your inquiry.
                 
-                If further documents are required to understand the complexity and scope of your request, we will provide you a secure link to our portal to upload necessary documentation 
+                If further documents are required to understand the complexity and scope of your request, we will provide you a secure link to our portal to upload necessary documentation. 
                 
                 If an introductory meeting is requested, please indicate so in your inquiry.
-                
-                Weber Tax &amp; Accounting does not currently maintain an office-front location, but in-person meetings can be arranged upon request.
             </p>
 
             <form className='ContactForm'>
