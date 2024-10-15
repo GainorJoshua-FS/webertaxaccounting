@@ -7,7 +7,7 @@ function PrivacyPolicy() {
             
             <h3>Collection of Personal Information</h3>
             <p>
-                Weber Tax &amp; Accounting only collects personal data that has been voluntarily provided by the users of this site by signing up for an account. We are the sole owners of the data collected on this site.
+                Weber Tax &amp; Accounting only collects personal data that has been voluntarily provided by the users of this site by filling out the contact form. We are the sole owners of the data collected on this site.
                 
                 We do not knowingly collect the personal data of any individuals under the age of 18 years old in any jurisdiction. If such information is collected and discovered, it will be completely deleted from our records and database.
                 
@@ -17,23 +17,20 @@ function PrivacyPolicy() {
             <h3>Use of Personal Information</h3>
                 
             <p>
-                Weber Tax &amp; Accounting may use personal data and information to:
-                
-                Directly respond to inquiries through our website, regarding any reasons that we were contacted.
-                
-                Any personal data or information, including email address, will never be sold, rented, lent, or given to any third-party for any reason, with the exception of being legally compelled to when required by the law.
+                Weber Tax &amp; Accounting may use personal data and information to directly respond to inquiries through our website regarding any reasons that we were contacted
             </p> 
 
             <h3>Your Access and Control Over Your Information</h3>
             
             <p>
                 At any time, users may opt out of any future contact with this website. By contacting us, users may also:
-                
-                Request deletion of their personal data.
-                
-                Ask any questions about how we use their personal data.
-                
-                Express any concerns they may have about our use of personal data.
+                <ul>
+                    <li>Request deletion of their personal data.</li>
+                    
+                    <li>Ask any questions about how we use their personal data.</li>
+                    
+                    <li>Express any concerns they may have about our use of personal data.</li>
+                </ul>
             </p>
 
             <h3>Personal Contact</h3>
