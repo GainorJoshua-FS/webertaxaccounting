@@ -192,17 +192,39 @@ header .Link:hover {
 
   /* HEADER & FOOTER ======================*/
 
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   header .Link{
     text-decoration: none;
-    display: inline-block;
     font-size: 20px;
     font-weight: 500;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     margin-bottom: 10px;
   }
 
+  header article {
+    display: flex;
+    /* max-width: 40%; */
+  }
+
+  header h1 {
+    font-size: 36px;
+  }
+
+  header div {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  header div .Link {
+    margin-right: 20px;
+  }
+
   .Logo {
-    max-width: 5%;
+    width: 100px;
     margin: 20px 20px 0px 25px;
   }
 
