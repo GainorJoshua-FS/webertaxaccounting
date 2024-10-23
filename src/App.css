@@ -75,7 +75,7 @@ header .Link:hover {
 @media(min-width: 1083px) {
 
   /* GENERAL */
-  section {
+  .Section {
     margin: 20px 100px;
   }
 
@@ -92,6 +92,22 @@ header .Link:hover {
   /* END GENERAL =================== */
 
   /* HOME PAGE */
+  .ServicesSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+  }
+
+  .ServicesSection p strong {
+    font-size: 23px;
+  }
+
+  .ServicesTitle {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
   .BioSection {
     display: flex;
     align-items: center;

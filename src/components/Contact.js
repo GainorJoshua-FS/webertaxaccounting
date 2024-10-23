@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section className='ContactSection'>
+        <section className='ContactSection Section'>
             <p className='ContactBody'>
                 Prospective clients please email <a href='mailto:Kyle.Weber@webertaxaccounting.com'>kyle.weber@webertaxaccounting.com</a> describing the nature of your inquiry.
                 
