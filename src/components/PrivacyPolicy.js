@@ -2,7 +2,7 @@ import React from 'react'
 
 function PrivacyPolicy() {
     return (
-        <section className='PrivSection'>
+        <section className='PrivSection Section'>
             <h2>Privacy Policy</h2>
             
             <h3>Collection of Personal Information</h3>
