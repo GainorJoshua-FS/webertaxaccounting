@@ -62,7 +62,115 @@ header .Link:hover {
 /* ==================Responsive */
 
 /* Phone */
-@media(min-width: 420px) {
+@media(max-width: 500px) {
+
+  /* GENERAL */
+  .Section {
+    margin: 0px 20px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  label, input, select {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  /* END GENERAL =================== */
+
+  /* HOME PAGE */
+
+  .ServicesSection {
+    margin-top: 10px;
+  }
+
+  .ServicesSection p strong {
+    font-size: 18px;
+  }
+
+  .ServicesTitle {
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  /* .BioSection {
+    
+  } */
+
+  .BioArticle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BioName {
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+
+  .BioTitle {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .BioImgMobile {
+    width: 35%;
+    float: left;
+    margin-right: 1rem;
+    margin-top: 18px;
+  }
+
+  .BioImg {
+    display: none;
+  }
+  /* END HOME PAGE ========================*/
+
+  /* HEADER & FOOTER ======================*/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .Link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  header article {
+    display: flex;
+    max-width: 40%;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  header div {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  header div .Link {
+    margin-right: 20px;
+  }
+
+  .Logo {
+    width: 90px;
+    margin: 20px 10px 0px 10px;
+  }
+
+  .Footer {
+    padding: 20px;
+    color: white;
+  }
+  /* END HEADER & FOOTER ======================*/
 
 }
 
@@ -138,6 +246,10 @@ header .Link:hover {
   .BioImg {
     margin-left: 80px;
     width: 20%;
+  }
+
+  .BioImgMobile {
+    display: none;
   }
   /* END HOME PAGE ========================*/
 
