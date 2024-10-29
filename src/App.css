@@ -97,10 +97,6 @@ header .Link:hover {
     margin-top: 0px;
   }
 
-  /* .BioSection {
-    
-  } */
-
   .BioArticle {
     display: flex;
     flex-direction: column;
@@ -128,6 +124,32 @@ header .Link:hover {
     display: none;
   }
   /* END HOME PAGE ========================*/
+
+  /* CONTACT PAGE ========================*/
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ContactForm label {
+    margin-top: 10px;
+  }
+
+  .ContactForm textarea {
+    height: 150px;
+  }
+
+  .ContactForm .FormBtn {
+    width: 25%;
+    height: 30px;
+    background-color: #2F5065;
+    color: white;
+    border-color: #C3AD54;
+    margin-top: 10px;
+  }
+
+  /* END CONTACT PAGE ========================*/
+
 
   /* HEADER & FOOTER ======================*/
 
@@ -305,7 +327,7 @@ header .Link:hover {
     height: 30px;
   }
   .ContactForm .FormBtn:hover {
-    background-color: teal;
+    background-color: #2F5065;
     color: white;
   }
 
