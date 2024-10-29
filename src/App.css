@@ -92,7 +92,7 @@ header .Link:hover {
   }
 
   .ServicesTitle {
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -103,13 +103,13 @@ header .Link:hover {
   }
 
   .BioName {
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 0px;
     margin-top: 0px;
     }
 
   .BioTitle {
-    font-size: 20px;
+    font-size: 19px;
     margin-bottom: 0px;
     margin-top: 0px;
   }
@@ -146,6 +146,7 @@ header .Link:hover {
     color: white;
     border-color: #C3AD54;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   /* END CONTACT PAGE ========================*/
@@ -171,7 +172,7 @@ header .Link:hover {
   }
 
   header h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   header div {
@@ -184,7 +185,7 @@ header .Link:hover {
   }
 
   .Logo {
-    width: 90px;
+    width: 70px;
     margin: 20px 10px 0px 10px;
   }
 
