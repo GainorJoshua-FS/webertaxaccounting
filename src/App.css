@@ -197,12 +197,187 @@ header .Link:hover {
 
 }
 
-/* tablet */
-@media(min-width: 644px) {
+/* tablet ================*/ 
+@media(max-width: 1082px) {
 
+  /* GENERAL */
+  .Section {
+    margin: 0px 20px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  label, input, select {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  /* END GENERAL =================== */
+
+  /* HEADER & FOOTER ======================*/
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .Link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  header article {
+    display: flex;
+    max-width: 40%;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header div {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  header div .Link {
+    margin-right: 20px;
+  }
+
+  .Logo {
+    width: 100px;
+    margin: 20px 10px 0px 10px;
+  }
+
+  .Footer {
+    padding: 20px;
+    color: white;
+    display: block;
+  }
+  
+  /* END HEADER & FOOTER ======================*/
+
+  /* HOME PAGE */
+  .ServicesSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .ServicesSection p strong {
+    font-size: 20px;
+  }
+
+  .ServicesTitle {
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+
+  .BioSection {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content:space-around;
+    margin-top: auto;
+  }
+
+  .BioArticle {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-right: 50px;
+  }
+
+  .BioName {
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+
+  .BioTitle {
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .BioImg {
+    margin-left: 80px;
+    width: 30%;
+  }
+
+  .BioImgMobile {
+    display: none;
+  }
+  /* END HOME PAGE ========================*/
+
+  /* CONTACT PAGE */
+
+  .ContactSection {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .ContactBody {
+    max-width: 50%;
+  }
+
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .ContactForm input {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
+  }
+
+  .ContactForm textarea {
+    width: auto;
+    height: 150px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    resize: vertical;
+    max-height: 300px;
+  }
+
+  .ContactForm select {
+    width: auto;
+    height: 36px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 1px 2px;
+    border-width: 2px;
+  }
+
+  .ContactForm label {
+    margin-top: 10px;
+  }
+
+  .ContactForm .FormBtn {
+    width: 25%;
+    height: 30px;
+  }
+  .ContactForm .FormBtn {
+    background-color: #2F5065;
+    color: white;
+    border-color: #C3AD54;
+  }
+
+  /* END CONTACT PAGE ======================*/
 }
 
-/* desktop */
+/* desktop ================*/
 @media(min-width: 1083px) {
 
   /* GENERAL */
