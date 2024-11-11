@@ -1,5 +1,5 @@
 import React from 'react'
-import Kyle from '../images/Kyle.jpeg'
+import Kyle from '../images/Kyle.JPG'
 
 function Bio() {
     return (
