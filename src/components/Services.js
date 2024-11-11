@@ -5,7 +5,7 @@ function Services() {
         <section className='ServicesSection'>
             <h2 className='ServicesTitle'>Services</h2>
             <p>
-                <strong>Individuals:</strong> Regardless of your income complexity, or services, Weber Tax &amp; Accounting will tailor our services to meet your needs. We also provide thorough projection and planning services to make the most efficient choices for your future.
+                <strong>Individuals:</strong> Regardless of your income complexity, or services, Weber Tax & Accounting will tailor our services to meet your needs. We also provide thorough projection and planning services to make the most efficient choices for your future.
             </p>
             <p>
                 <strong>Trusts and Estates:</strong>  We prepare fiduciary (Form 1041) returns for trusts and estates.
@@ -21,3 +21,9 @@ function Services() {
 }
 
 export default Services
+
+const styles ={
+    services:{
+        
+    },
+}

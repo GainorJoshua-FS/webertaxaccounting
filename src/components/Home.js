@@ -1,4 +1,5 @@
 import React from 'react'
+import Kyle from '../images/Kyle.jpeg'
 import Bio from './Bio'
 import Services from './Services'
 
@@ -12,3 +13,9 @@ function Home() {
 }
 
 export default Home
+
+const styles ={
+    img:{
+        borderRadius: '2%'
+    },
+}
