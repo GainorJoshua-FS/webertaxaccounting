@@ -62,7 +62,7 @@ header .Link:hover {
 /* ==================Responsive */
 
 /* Phone */
-@media(max-width: 500px) {
+@media(max-width: 499px) {
 
   /* GENERAL */
   .Section {
@@ -198,7 +198,7 @@ header .Link:hover {
 }
 
 /* tablet ================*/ 
-@media(max-width: 1082px) {
+@media (min-width: 500px) and (max-width: 1023px) {
 
   /* GENERAL */
   .Section {
@@ -290,8 +290,9 @@ header .Link:hover {
   .BioArticle {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
-    margin-right: 50px;
+    /* max-width: 80%; */
+    /* margin-right: 10px; */
+    margin-bottom: 5%;
   }
 
   .BioName {
@@ -306,12 +307,16 @@ header .Link:hover {
     margin-top: 0px;
   }
 
-  .BioImg {
-    margin-left: 80px;
-    width: 30%;
+  .BioImgMobile {
+    margin-left: 1%;
+    width: 25%;
+    margin-bottom: 2%;
+    float: left;
+    margin-right: 1rem;
+    margin-top: 18px;
   }
 
-  .BioImgMobile {
+  .BioImg {
     display: none;
   }
   /* END HOME PAGE ========================*/
@@ -325,7 +330,8 @@ header .Link:hover {
   }
 
   .ContactBody {
-    max-width: 50%;
+    max-width: 45%;
+    margin-right: 5%;
   }
 
   .ContactForm {
@@ -378,7 +384,7 @@ header .Link:hover {
 }
 
 /* desktop ================*/
-@media(min-width: 1083px) {
+@media(min-width: 1024px) {
 
   /* GENERAL */
   .Section {
