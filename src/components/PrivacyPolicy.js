@@ -59,3 +59,9 @@ function PrivacyPolicy() {
 }
 
 export default PrivacyPolicy
+
+const styles ={
+    example:{
+
+    },
+}
