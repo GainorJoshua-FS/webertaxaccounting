@@ -1,6 +1,52 @@
 import React from 'react'
+import { useState } from "react";
 
 function Contact() {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        inquiry: "",
+        message: "",
+    });
+
+    const [errors, setErrors] = useState({});
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+    };
+
+    const validateForm = () => {
+        const newErrors = {};
+        if (!formData.name.trim()) newErrors.name = "Name is required.";
+        if (!formData.email.trim()) newErrors.email = "Email is required.";
+        if (!formData.inquiry.trim()) newErrors.inquiry = "Inquiry is required.";
+        if (!formData.message.trim()) newErrors.message = "Message is required.";
+        return newErrors;
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const newErrors = validateForm();
+        setErrors(newErrors);
+
+        if (Object.keys(newErrors).length === 0) {
+            alert("Form submitted successfully!");
+
+            // Clear the form and errors
+            setFormData({
+                name: "",
+                email: "",
+                inquiry: "",
+                message: "",
+            });
+            setErrors({});
+        }
+    };
+
     return (
         <section className='ContactSection Section'>
             <p className='ContactBody'>
@@ -11,25 +57,61 @@ function Contact() {
                 If an introductory meeting is requested, please indicate so in your inquiry.
             </p>
 
-            <form className='ContactForm'>
-                <label for='Name'>Name:</label>
-                <input type='text' name='Name' placeholder='First and Last Name'/>
+            <form className="ContactForm" onSubmit={handleSubmit}>
+            <label htmlFor="name">Name:</label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="First and Last Name"
+                value={formData.name}
+                onChange={handleChange}
+                style={{ borderColor: errors.name ? "red" : "" }}
+            />
+            {errors.name && <span className="error-message">{errors.name}</span>}
 
-                <label for='Email'>Email:</label>
-                <input type='email' name='Email' placeholder='example@example.com'/>
+            <label htmlFor="email">Email:</label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@example.com"
+                value={formData.email}
+                onChange={handleChange}
+                style={{ borderColor: errors.email ? "red" : "" }}
+            />
+            {errors.email && <span className="error-message">{errors.email}</span>}
 
-                <label for='Inquiry'>Inquiry:</label>
-                <select name='Inquiry'>
-                    <option value='client'>Prospective Client</option>
-                    <option value='meeting'>Meeting Request</option>
-                    <option value='other'>Other</option>
-                </select>
+            <label htmlFor="inquiry">Inquiry:</label>
+            <select
+                name="inquiry"
+                id="inquiry"
+                value={formData.inquiry}
+                onChange={handleChange}
+                style={{ borderColor: errors.inquiry ? "red" : "" }}
+            >
+                <option value="">Select an option</option>
+                <option value="client">Prospective Client</option>
+                <option value="meeting">Meeting Request</option>
+                <option value="other">Other</option>
+            </select>
+            {errors.inquiry && <span className="error-message">{errors.inquiry}</span>}
 
-                <label for='Message'>Message:</label>
-                <textarea type='text' name='Message' placeholder='Type Here'/>
+            <label htmlFor="message">Message:</label>
+            <textarea
+                name="message"
+                id="message"
+                placeholder="Type Here"
+                value={formData.message}
+                onChange={handleChange}
+                style={{ borderColor: errors.message ? "red" : "" }}
+            ></textarea>
+            {errors.message && <span className="error-message">{errors.message}</span>}
 
-                <input className='FormBtn' type='button' value='Submit'/>
-            </form>
+            <button className="FormBtn" type="submit">
+                Submit
+            </button>
+        </form>
         </section>
     )
 }
