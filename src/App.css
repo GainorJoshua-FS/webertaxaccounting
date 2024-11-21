@@ -17,7 +17,7 @@ footer a {
 }
 
 .Link {
-  border-bottom: medium solid #C3AD54;
+  border-bottom: medium solid #B68D4C;
   color: white;
 }
 
@@ -47,7 +47,7 @@ header .Link:hover {
 }
 
 .TertBack {
-  background-color: #C3AD54;
+  background-color: #B68D4C;
 }
 
 .Prim {
@@ -59,7 +59,7 @@ header .Link:hover {
 }
 
 .Tert {
-  color: #C3AD54;
+  color: #B68D4C;
 }
 
 /* ==================END of Colors */
@@ -150,7 +150,7 @@ header .Link:hover {
     height: 30px;
     background-color: #2F5065;
     color: white;
-    border-color: #C3AD54;
+    border-color: #B68D4C;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -381,7 +381,7 @@ header .Link:hover {
   .ContactForm .FormBtn {
     background-color: #2F5065;
     color: white;
-    border-color: #C3AD54;
+    border-color: #B68D4C;
   }
 
   /* END CONTACT PAGE ======================*/
