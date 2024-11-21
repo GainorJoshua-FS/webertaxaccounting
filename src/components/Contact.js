@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import { useState } from "react";
+import emailjs from '@emailjs/browser';
+import EmailKeys from './EmailKeys.js'
 
 function Contact() {
     const [formData, setFormData] = useState({
@@ -32,18 +34,34 @@ function Contact() {
         e.preventDefault();
         const newErrors = validateForm();
         setErrors(newErrors);
-
+    
         if (Object.keys(newErrors).length === 0) {
-            alert("Form submitted successfully!");
-
-            // Clear the form and errors
-            setFormData({
-                name: "",
-                email: "",
-                inquiry: "",
-                message: "",
-            });
-            setErrors({});
+            const templateParams = {
+                from_name: formData.name,
+                _inquiry: formData.inquiry,
+                _message: formData.message,
+                from_email: formData.email,
+            };
+    
+            console.log("Template Params: ", templateParams);
+    
+            emailjs
+                .send(EmailKeys.serviceId, EmailKeys.templateId, templateParams, EmailKeys.publicId)
+                .then(
+                    () => {
+                        setFormData({
+                            name: "",
+                            email: "",
+                            inquiry: "",
+                            message: "",
+                        });
+                        setErrors({});
+                        alert('Form submitted successfully! We will get back to you as soon as possible!');
+                    },
+                    () => {
+                        alert('Failed to send email. Please try again later.');
+                    }
+                );
         }
     };
 
@@ -91,9 +109,9 @@ function Contact() {
                 style={{ borderColor: errors.inquiry ? "red" : "" }}
             >
                 <option value="">Select an option</option>
-                <option value="client">Prospective Client</option>
-                <option value="meeting">Meeting Request</option>
-                <option value="other">Other</option>
+                <option value="A Prospective Client">Prospective Client</option>
+                <option value="A Meeting Request">Meeting Request</option>
+                <option value="Other - Explained in Message">Other</option>
             </select>
             {errors.inquiry && <span className="error-message">{errors.inquiry}</span>}
 
