@@ -68,7 +68,7 @@ header .Link:hover {
 /* ==================Responsive */
 
 /* Phone */
-@media(max-width: 499px) {
+@media(max-width: 640px) {
 
   /* GENERAL */
   .Section {
@@ -204,7 +204,7 @@ header .Link:hover {
 }
 
 /* tablet ================*/ 
-@media (min-width: 500px) and (max-width: 1023px) {
+@media (min-width: 641px) and (max-width: 1023px) {
 
   /* GENERAL */
   .Section {
