@@ -18,7 +18,3 @@ function Footer() {
 }
 
 export default Footer
-
-const styles ={
-
-}

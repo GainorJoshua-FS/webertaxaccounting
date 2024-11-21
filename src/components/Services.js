@@ -21,9 +21,3 @@ function Services() {
 }
 
 export default Services
-
-const styles ={
-    services:{
-        
-    },
-}
