@@ -36,6 +36,16 @@ header .Link:hover {
   margin-top: 5px;
 }
 
+.HeaderFont {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+}
+
+.BodyFont {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+}
+
 /* ==================Colors */
 
 .PrimBack {

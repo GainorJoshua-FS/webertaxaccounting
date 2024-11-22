@@ -10,14 +10,14 @@ function Header() {
                 <Link className='LinkLogo' to="/" style={styles.link}>
                     <img className='Logo' src={Logo2} alt=''/>
                 </Link>
-                <h1 className='Tert'>Weber <br/> Tax &amp; Accounting</h1>
+                <h1 className='Tert HeaderFont'>Weber <br/> Tax &amp; Accounting</h1>
             </article>
 
             <div>
-                <Link className='Link' id="link" to="/" style={styles.link}>
+                <Link className='Link HeaderFont' id="link" to="/" style={styles.link}>
                     Home
                 </Link>
-                <Link className='Link' id="link" to="/contact" style={styles.link}>
+                <Link className='Link HeaderFont' id="link" to="/contact" style={styles.link}>
                     Contact Us
                 </Link>
             </div>
