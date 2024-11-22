@@ -2,8 +2,8 @@ import React from 'react'
 
 function Services() {
     return (
-        <section className='ServicesSection'>
-            <h2 className='ServicesTitle'>Services</h2>
+        <section className='ServicesSection BodyFont'>
+            <h2 className='ServicesTitle HeaderFont'>Services</h2>
             <p>
                 <strong>Individuals:</strong> Regardless of your income complexity, or services, Weber Tax & Accounting will tailor our services to meet your needs. We also provide thorough projection and planning services to make the most efficient choices for your future.
             </p>

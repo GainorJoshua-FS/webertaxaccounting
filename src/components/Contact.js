@@ -67,7 +67,7 @@ function Contact() {
 
     return (
         <section className='ContactSection Section'>
-            <p className='ContactBody'>
+            <p className='ContactBody BodyFont'>
                 Prospective clients please email <a href='mailto:Kyle.Weber@webertaxaccounting.com'>kyle.weber@webertaxaccounting.com</a> describing the nature of your inquiry.
                 
                 If further documents are required to understand the complexity and scope of your request, we will provide you a secure link to our portal to upload necessary documentation. 
@@ -75,7 +75,7 @@ function Contact() {
                 If an introductory meeting is requested, please indicate so in your inquiry.
             </p>
 
-            <form className="ContactForm" onSubmit={handleSubmit}>
+            <form className="ContactForm BodyFont" onSubmit={handleSubmit}>
             <label htmlFor="name">Name:</label>
             <input
                 type="text"

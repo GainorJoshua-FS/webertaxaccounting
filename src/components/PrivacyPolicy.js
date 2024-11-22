@@ -2,8 +2,8 @@ import React from 'react'
 
 function PrivacyPolicy() {
     return (
-        <section className='PrivSection Section'>
-            <h2>Privacy Policy</h2>
+        <section className='PrivSection Section BodyFont'>
+            <h2 className='HeaderFont'>Privacy Policy</h2>
             
             <h3>Collection of Personal Information</h3>
             <p>
