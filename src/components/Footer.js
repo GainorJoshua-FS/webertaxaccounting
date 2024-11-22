@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
-        <footer className='PrimBack Footer'>
+        <footer className='PrimBack Footer BodyFont'>
             Northern Virginia
             •
             Email: <a className='Link' href='mailto:Kyle.Weber@webertaxaccounting.com'>kyle.weber@webertaxaccounting.com</a>
@@ -18,7 +18,3 @@ function Footer() {
 }
 
 export default Footer
-
-const styles ={
-
-}
